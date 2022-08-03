@@ -1,0 +1,686 @@
+*
+    box-sizing: border-box
+
+@font-face 
+    font-family: "AvenirR"
+    src: url(../fonts/Avenir-Roman.ttf)
+    font-display: swap
+
+@font-face 
+    font-family: "AvenirM"
+    src: url(../fonts/Avenir-Medium.ttf)
+    font-display: swap
+
+@font-face 
+    font-family: "AvenirB"
+    src: url(../fonts/Avenir-Book.ttf)
+    font-display: swap
+
+@font-face
+    font-family: "AvenirBlack"
+    src: url(../fonts/Avenir-Black.otf)
+    font-display: swap
+
+.container
+    width: 1240px
+    margin: 0 auto
+
+.main-section
+    min-height: 837px
+    background: #D7F5DC
+    &__content-container
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        align-items: center
+        flex
+        position: relative
+    &__nav-container
+        margin-bottom: 40px
+    .btn
+        font-family: "Poppins", sans-serif
+        font-weight: 500 
+    .nav-background
+        background-color: #D7F5DC
+    .nav-link
+        color: #000
+        margin-right: 30px
+        font-family: "Poppins", sans-serif
+        font-weight: 500
+    .log-btn
+        width: 93px
+        height: 44px
+        border: 1px solid #20B15A
+        border-radius: 10px
+        color: #000
+        margin-right: 30px
+    .reg-btn
+        width: 105px
+        height: 44px
+        background: #20B15A
+        border-radius: 10px
+        border: none
+        color: #fff
+    .navbar-collapse
+        flex-grow: 0
+    &__text
+        max-width: 550px
+        max-height: 366px
+    &__title
+        color: #000
+        font-size: 50px
+        line-height: 65px
+        margin-bottom: 10px
+        font-family: "Poppins", sans-serif
+        font-weight: 700
+    &__subtitle
+        font-size: 20px
+        margin-bottom: 35px
+        font-family: "Poppins", sans-serif
+        font-weight: 500
+    &__btn
+        width: 175px
+        height: 70px
+        background: #20B15A
+        border-radius: 16px
+        border: none
+        font-size: 20px
+        color: #fff
+        font-family: "Poppins", sans-serif
+        font-weight: 500
+    &__img
+        right: 10px
+    &__elements
+        position: absolute
+        top: 83px
+        right: 137px
+    &__companies
+        width: 100%
+        height: 120px
+        background-color: #fff
+        display: flex
+        flex-direction: row
+        justify-content: center
+        align-items: center
+    &__logo-company
+        margin-right: 150px
+        &:last-child
+            margin-right: 0
+
+.second-section
+    min-height: 705px
+    padding-top: 65px
+    &__title
+        width: 495px
+        height: 135px
+        margin-bottom: 40px
+    &__text
+        font-size: 30px
+        font-family: "Poppins", sans-serif
+        font-weight: 600
+    &__subtitle
+        font-size: 20px
+        margin-bottom: 15px
+        color: #20B15A
+        font-family: "Poppins", sans-serif
+        font-weight: 500
+    &__benefits
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        align-items: center
+
+.benefit-item
+    width: 380px
+    height: 415px
+    padding-top: 50px
+    padding-left: 30px
+    &__content
+        max-width: 299px
+    &__title
+        font-size: 24px
+        color: #000
+        margin-bottom: 15px
+        font-family: "Poppins", sans-serif
+        font-weight: 600
+    &__subtitle
+        font-size: 18px
+        margin-bottom: 40px
+        font-family: "AvenirR", sans-serif
+        font-weight: 400
+    &__btn
+        width: 159px
+        height: 55px
+        border-radius: 10px
+        border: none
+        font-size: 18px
+        display: flex
+        flex-direction: row
+        justify-content: center
+        align-items: center
+        background-color: #fff
+        font-family: "AvenirR", sans-serif
+        font-weight: 400
+    &__arrow-right
+        padding-left: 10px
+    &__icon
+        margin-bottom: 15px
+
+.third-section
+    min-height: 420px
+    display: flex
+    align-items: center
+    &__achievements
+        display: flex
+        flex-direction: row
+        justify-content: center
+        align-items: center
+
+.achievement-item
+    width: 240px
+    height: 259px
+    border: 1px solid black
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    border: none
+    border-right: 1px solid rgba(196, 196, 196, 0.5)
+    &:last-child
+        border-right: none
+    &__content
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+    &__icon
+        margin-bottom: 10px
+    &__title
+        font-size: 16px
+        color: #000
+        margin-bottom: 15px
+        font-family: "Poppins", sans-serif
+        font-weight: 500
+    &__subtitle
+        font-size: 40px
+        color: #20B15A
+        font-family: "AvenirBlack", sans-serif
+        font-weight: 800
+
+.fourth-section
+    min-height: 1626px
+    padding-top: 62px
+    &__title
+        width: 495px
+        height: 144px
+        margin-bottom: 73px
+        font-family: "Poppins", sans-serif
+        font-weight: 500
+    &__green-title
+        font-size: 20px
+        color: #20B15A
+        margin-bottom: 24px
+    &__title-text
+        font-size: 30px
+        color: #000
+        font-family: "Poppins", sans-serif
+        font-weight: 600
+    &__works-box
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        flex-wrap: wrap
+
+.work-item
+    width: 561px
+    height: 496px
+    &_first
+        margin-bottom: 98px
+    &_second
+        width: 561px
+        height: 675px
+        margin-bottom: 95px
+    &_third
+        width: 561px
+        height: 677px
+    &_fourth
+        width: 554px
+        height: 504px
+    &__text
+        width: 533px
+        height: 111px
+    &__title
+        font-size: 22px
+        margin-bottom: 15px
+        font-family: "Poppins", sans-serif
+        font-weight: 600
+    &__img
+        margin-bottom: 42px
+    &__subtitle
+        font-family: "AvenirB", sans-serif
+        font-weight: 400
+
+.fifth-section
+    min-height: 740px
+    padding-top: 122px
+    overflow: hidden
+    &__title
+        width: 495px
+        height: 144px
+        font-family: "Poppins", sans-serif
+        font-weight: 600
+    &__green-title
+        font-size: 20px
+        color: #20B15A
+        font-family: "Poppins", sans-serif
+        font-weight: 500
+    &__title-text
+        font-size: 30px
+        color: #000
+    &__header
+        height: 144px
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        align-items: flex-start
+        margin-bottom: 96px
+    &__cards-box
+        display: flex
+        flex-direction: row
+
+.card-item
+    width: 470px
+    height: 260px
+    background: #FFFFFF
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+    border-radius: 20px
+    padding: 40px
+    margin-right: 45px
+    &:last-child
+        margin-right: 0
+    &__text
+        width: 390px
+        height: 100px
+        font-size: 18px
+        margin-bottom: 20px
+        font-family: "AvenirR", sans-serif
+        font-weight: 400
+    &__card-name
+        width: 247px
+        height: 60px
+        display: flex
+        flex-direction: row
+    &__title
+        font-size: 20px
+        color: #000
+        margin-bottom: 5px
+        font-weight: bold
+        font-family: "Poppins", sans-serif
+        font-weight: 600
+        span
+            font-size: 18px
+            color: #000
+            font-family: "AvenirR", sans-serif
+            font-weight: 400
+    &__rectangle
+        width: 60px
+        height: 60px
+        border-radius: 50%
+        margin-right: 10px
+        background-image: url(../img/woman.png)
+        background-color: #E6E4FF
+
+.sixth-section
+    min-height: 500px
+    &__container
+        min-height: 500px
+        display: flex
+        justify-content: center
+        align-items: center
+    &__content
+        width: 596px
+        height: 271px
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-direction: column
+    &__green-title
+        font-size: 20px
+        color: #20B15A
+        margin-bottom: 22px
+        margin: 0
+        margin-bottom: 22px
+        font-family: "Poppins", sans-serif
+        font-weight: 500
+    &__title-text
+        font-size: 30px
+        color: #000
+        text-align: center
+        margin: 0
+        margin-bottom: 5px
+        font-family: "Poppins", sans-serif
+        font-weight: 600
+    &__subtitle
+        color: #8B8B8B
+        margin: 0
+        margin-bottom: 40px
+        font-family: "AvenirM", sans-serif
+        font-weight: 500
+    &__search
+        padding-left: 16px
+        padding-right: 5px
+        width: 596px
+        height: 62px
+        border: 1px solid black
+        border-radius: 10px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        flex-direction: row
+    &__search-title
+        color: #8B8B8B
+        margin: 0
+        font-family: "AvenirR", sans-serif
+        font-weight: 400
+    &__btn
+        width: 130.65px
+        height: 52.7px
+        left: 460px
+        top: 5px
+        background: #F55F1D
+        border: 0
+        border-radius: 14px
+        color: white
+        font-family: "Poppins", sans-serif
+        font-weight: 500
+
+.footer
+    padding-top: 57px
+    min-height: 441px
+    background-color: #00CA72
+    &__blocks
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        justify-items: center
+        align-items: flex-start
+        height: 335px
+
+.block
+    width: 338px
+    height: 335px
+    &_second
+        width: 114px
+        height: 221px
+    &_third
+        width: 258px
+        height: 137px
+    &__logo
+        margin-bottom: 20px
+    &__subtitle
+        margin-bottom: 20px
+        font-size: 18px
+        color: #000
+        font-family: "AvenirR", sans-serif
+        font-weight: 400
+        &_third
+            font-size: 20px
+            font-family: "AvenirM", sans-serif
+            font-weight: 500
+    &__icons
+        margin-bottom: 88px
+    &__copyright
+        font-size: 20px
+        color: #000
+        font-family: "AvenirM", sans-serif
+        font-weight: 500
+    &__title
+        font-size: 20px
+        color: #000
+        font-family: "Poppins", sans-serif
+        font-weight: 600
+    &__menu
+        margin-bottom: 25px
+        font-size: 18px
+        color: #000
+        font-family: "AvenirM", sans-serif
+        font-weight: 500
+        &:last-child
+            margin-bottom: 0
+
+@media (max-width: 1399px)
+    .main-section
+        &__logo-company
+            width: 70px
+    .fourth-section
+        &__container
+            // display: flex
+            // flex-direction: column
+            // justify-content: center
+            // align-items: center
+        &__works-box
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+        &__title
+            display: flex
+            justify-content: flex-start
+            flex-direction: column
+        .work-item
+            &_third
+                margin-bottom: 95px
+
+@media (max-width: 1199px)
+    .main-section
+        min-height: 610px
+        &__title
+            font-size: 45px
+        &__subtitle
+            font-size: 18px
+        &__img
+            display: none
+        &__companies
+            display: none
+        &__offer
+            width: 550px
+            height: 366px
+        &__elements
+            top: -37px
+            right: 14px
+    .benefit-item__title
+        font-size: 20px
+    .benefit-item__subtitle
+        font-size: 16px
+
+@media (max-width: 991px)
+    .main-section
+        &__offer
+            z-index: 1
+        &__elements
+            right: -32px
+            width: 450px
+    .second-section
+        min-height: 560px
+        &__title
+            margin: 0
+        &__text
+            font-size: 24px
+        &__subtitle
+            font-size: 18px
+    .benefit-item
+        height: 320px
+        &__icon
+            width: 50px
+        &__title
+            font-size: 16px
+        &__subtitle
+            font-size: 14px
+        &__btn
+            font-size: 16px
+    .third-section
+        &__achievements
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+        &__achievement-item
+            border-right: none
+    .block
+        &_second
+            display: none
+
+@media (max-width: 767px)
+    .main-section
+        &__title
+            font-size: 36px
+            text-align: center
+        &__subtitle
+            font-size: 14px
+            text-align: center
+        &__offer
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+        &__elements
+            right: 112px
+            top: -39px
+            width: 350px
+    .second-section
+        &__benefits
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+    .work-item
+        width: 400px
+        &__text
+            max-width: 400px
+        &__title
+            font-size: 18px
+        &__subtitle
+            font-size: 14px
+        &__img
+            width: 400px
+    .sixth-section
+        &__search
+            width: 500px
+    .footer
+        &__container
+            display: flex
+            justify-content: center
+    .block
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        &_third
+            display: none
+        &_second
+            display: none
+        &__subtitle
+            font-size: 16px
+            text-align: center
+
+@media (max-width: 575px)
+    .main-section
+        &__title
+            font-size: 24px
+        &__btn
+            width: 150px
+            height: 50px
+            font-size: 16px
+        &__elements
+            right: 112px
+            top: -39px
+    .second-section
+        overflow: hidden
+        &__subtitle
+            font-size: 16px
+        &__text
+            font-size: 18px
+    .benefit-item
+        max-width: 250px
+        height: 270px
+        &__content
+            max-width: 209px
+    .second-section__title
+        width: 250px
+    .fourth-section
+        overflow: hidden
+        &__container
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+        &__green-title
+            font-size: 16px
+        &__title-text
+            font-size: 18px
+        &__works-box
+            width: 250px
+    .fourth-section__title
+        width: 250px
+    .sixth-section
+        overflow: hidden
+        height: 300px
+        &__green-title
+            font-size: 18px
+        &__title-text
+            font-size: 20px
+            margin-bottom: 20px
+        &__subtitle
+            display: none
+        &__search
+            width: 285px
+        &__search-title
+            font-size: 12px
+        &__btn
+            width: 90px
+            height: 40px
+            font-size: 14px
+    .footer
+        overflow: hidden
+    .work-item
+        margin-bottom: 10px
+        &_third
+            height: 420px
+        &_first
+            width: 250px
+            height: 450px
+        &_second
+            height: 500px
+        &_fourth
+            height: 450px
+        &__img
+            width: 250px
+        &__title
+            width: 250px
+        &__subtitle
+            width: 250px
+    .fifth-section
+        padding-top: 50px
+        min-height: 500px
+        &__header
+            margin: 0
+        &__icon
+            width: 80px
+        &__green-title
+            font-size: 18px
+        &__title-text
+            font-size: 24px
+    .card-item
+        width: 400px
+        height: 230px
+        &__text
+            font-size: 14px
+            width: 320px
+            height: 70px
+        &__title
+            font-size: 18px
+            span
+                font-size: 16px
+    .block
+        &__subtitle
+            font-size: 14px
