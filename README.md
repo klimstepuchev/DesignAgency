@@ -3,7 +3,7 @@
 <h1 align="center">Website For Web Studio DesignAgency</h1>
 
 # Info
-[Website](https://klimstepuchev.github.io/design_agency_template/) layout for a web studio DesignAgency. Flexible, cross-browser template.
+[Website](https://klimstepuchev.github.io/DesignAgency/) layout for a web studio DesignAgency. Flexible, cross-browser template.
 
 # Description
 * Adaptive
